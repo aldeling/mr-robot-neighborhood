@@ -70,9 +70,14 @@ const number = "3"
 changeNumber(number)
 Expected Output: "Won't you be my neighbor!"
 
+Test: It should return a number if it does not contain a one, two, or three
+Code:
+const number = "4"
+changeNumber(number)
+Expected Output: "4"
+
 Test:
 Code:
 Expected Output:
-
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
