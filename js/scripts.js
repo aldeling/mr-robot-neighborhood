@@ -7,4 +7,11 @@ function correctInput(number) {
   return number;
 }
 
+function numberArray(number) {
+  const finishedArray = [];
+  for (let index = 0; index <= number; index += 1) {
+    finishedArray.push(number)
+  }
+  return finishedArray;
+}
 // UI Logic 
