@@ -50,5 +50,13 @@ const number = "4"
 numberArray(number)
 Expected Output: ["0", "1", "2", "3", "4"]
 
+Describe: changeNumber()
+
+Test: It should return Beep! when there is a one present in the string
+Code:
+const number = "1"
+changeNumber(number)
+Expected Output: "Beep!"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
