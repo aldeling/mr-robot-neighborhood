@@ -29,5 +29,12 @@ Code:
 const number = "a"
 correctInput(number)
 Expected Output: this is not a valid input
+
+Test: It should return inputted number when number is inputted
+Code:
+const number = "1"
+correctInput(number)
+Expected Output: "1"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
