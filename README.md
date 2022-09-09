@@ -44,5 +44,11 @@ const number = "4"
 numberArray(number)
 Expected Output: [0, 1, 2, 3, 4]
 
+Test: It should return reach number in the array as a string
+Code:
+const number = "4"
+numberArray(number)
+Expected Output: ["0", "1", "2", "3", "4"]
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
