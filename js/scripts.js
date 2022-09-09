@@ -18,11 +18,12 @@ function numberArray(number) {
 
 function changeNumber(number) {
   if (number === "1") {
-    return "Beep!"
+    return "Beep!";
   } else if (number === "2") {
-    return "Boop!"
+    return "Boop!";
   } else if (number === "3") {
-    return "Won't you be my neighbor!"
+    return "Won't you be my neighbor!";
   }
+  return number;
 }
 // UI Logic 
