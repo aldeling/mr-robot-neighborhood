@@ -16,12 +16,12 @@ Another option is to go to the [GitHub](will replace) pages link and open the we
 ### Known Bugs
 There are no known bugs
 ### Tests
-Describe: numberInput()
+Describe: correctInput()
  
 Test: It should return an error message when nothing is inputted
 Code:
 const number = ""
-numberInput(number)
+correctInput(number)
 Expected Output: this is not a valid input
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
