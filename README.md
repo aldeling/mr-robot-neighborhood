@@ -58,5 +58,15 @@ const number = "1"
 changeNumber(number)
 Expected Output: "Beep!"
 
+Test: It should return Boop! when there is a teo present in the string
+Code:
+const number = "2"
+changeNumber(number)
+Expected Output: "Boop!"
+
+Test:
+Code:
+Expected Output:
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
