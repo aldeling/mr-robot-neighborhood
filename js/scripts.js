@@ -10,8 +10,10 @@ function correctInput(number) {
 function numberArray(number) {
   const finishedArray = [];
   for (let index = 0; index <= number; index += 1) {
-    finishedArray.push(index)
+    let numberStrings = index.toString();
+    finishedArray.push(numberStrings)
   }
   return finishedArray;
 }
+
 // UI Logic 
