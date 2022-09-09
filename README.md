@@ -58,11 +58,17 @@ const number = "1"
 changeNumber(number)
 Expected Output: "Beep!"
 
-Test: It should return Boop! when there is a teo present in the string
+Test: It should return Boop! when there is a two present in the string
 Code:
 const number = "2"
 changeNumber(number)
 Expected Output: "Boop!"
+
+Test: It should return Won't you be my neighbor! when there is a three present in the string
+Code:
+const number = "3"
+changeNumber(number)
+Expected Output: "Won't you be my neighbor!"
 
 Test:
 Code:
