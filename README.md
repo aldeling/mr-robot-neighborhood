@@ -42,7 +42,7 @@ Test: It should return an array from 0 to the number 4
 Code:
 const number = "4"
 numberArray(number)
-Expected Output: ["0", "1", "2", "3", "4"]
+Expected Output: [0, 1, 2, 3, 4]
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
