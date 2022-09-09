@@ -23,5 +23,11 @@ Code:
 const number = ""
 correctInput(number)
 Expected Output: this is not a valid input
+
+Test: It should return and error message when a letter is inputted
+Code:
+const number = "a"
+correctInput(number)
+Expected Output: this is not a valid input
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
