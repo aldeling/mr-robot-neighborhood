@@ -16,4 +16,9 @@ function numberArray(number) {
   return finishedArray;
 }
 
+function changeNumber(number) {
+  if (number === "1") {
+    return "Beep!"
+  }
+}
 // UI Logic 
