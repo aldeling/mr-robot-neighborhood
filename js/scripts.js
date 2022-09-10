@@ -26,4 +26,17 @@ function changeNumber(number) {
   }
   return number;
 }
+
+function completeMessage(number) {
+  const finalOutput = [];
+  const first = correctInput(number);
+  if (first === "this is not a valid input")
+    return first;
+  const second = numberArray(first);
+  for (let index = 0; index <= second.length-1; index += 1) {
+    const third = changeNumber(second[index]);
+    finalOutput.push(third);
+  }
+  return finalOutput;
+}
 // UI Logic 
