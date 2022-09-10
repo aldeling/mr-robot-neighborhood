@@ -86,7 +86,13 @@ Test: It should return Boop! if two is included in the number
 Code:
 const number = "20"
 changeNumber(number)
-Expected Output: Boop!
+Expected Output: "Boop!"
+
+Test: It should return Won't you be my neighbor! if three is included in the number
+Code:
+const number = "30"
+changeNumber(number)
+Expected Output: "Won't you be my neighbor"
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
