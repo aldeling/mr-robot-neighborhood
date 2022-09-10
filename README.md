@@ -100,5 +100,10 @@ const number = "123"
 changeNumber(number)
 Expected Output: "Won't you be my neighbor"
 
+Test: It should return Boop! when there is a one and a two present
+Code:
+const number = "12"
+changeNumber(number)
+Expected Output: "Boop!"
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
