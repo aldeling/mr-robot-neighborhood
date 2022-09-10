@@ -105,5 +105,12 @@ Code:
 const number = "12"
 changeNumber(number)
 Expected Output: "Boop!"
+
+Describes: completeMessage()
+
+Test: It should return an array full of strings starting at the value zero and go up to the users inputted value. With any number containing a one, two, or three changing to it respective statement.
+Code:
+const number = "5"
+Expected Output:["0", "Beep!", "Boop!", "Won't you be my neighbor", "4", "5"]
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
