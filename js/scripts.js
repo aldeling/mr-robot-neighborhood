@@ -46,3 +46,7 @@ function handelFormSubmission(event) {
   let userNumber = document.getElementById("number").value;
   document.getElementById("statement").innerText = completeMessage(userNumber);
 }
+
+window.addEventListener("load",function() {
+  document.querySelector("form#userForm").addEventListener("submit", handelFormSubmission)
+})
