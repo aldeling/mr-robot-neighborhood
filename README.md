@@ -94,5 +94,10 @@ const number = "30"
 changeNumber(number)
 Expected Output: "Won't you be my neighbor"
 
+Test: It should return wont you be my neighbor when there is a one, two, or three present
+Code:
+const number = "123"
+changeNumber(number)
+Expected Output: "Won't you be my neighbor"
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
