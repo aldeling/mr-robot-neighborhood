@@ -76,8 +76,11 @@ const number = "4"
 changeNumber(number)
 Expected Output: "4"
 
-Test:
+Test: It should return Beep! if one is include in the number
 Code:
-Expected Output:
+const number = "10"
+changeNumber(number)
+Expected Output: "Beep!"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
