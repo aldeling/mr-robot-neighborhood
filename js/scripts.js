@@ -42,11 +42,11 @@ function completeMessage(number) {
 // UI Logic 
 
 function handelFormSubmission(event) {
-  event.preventdefault();
+  event.preventDefault();
   let userNumber = document.getElementById("number").value;
   document.getElementById("statement").innerText = completeMessage(userNumber);
 }
 
 window.addEventListener("load",function() {
-  document.querySelector("form#userForm").addEventListener("submit", handelFormSubmission)
-})
+  document.querySelector("form#userForm").addEventListener("submit", handelFormSubmission);
+});
