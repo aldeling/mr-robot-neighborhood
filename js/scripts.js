@@ -39,13 +39,14 @@ function completeMessage(number) {
   }
   return finalOutput;
 }
+
 // UI Logic 
 
 function handelFormSubmission(event) {
   event.preventDefault();
   let userNumber = document.getElementById("number").value;
   document.getElementById("statement").innerText = completeMessage(userNumber);
-  document.getElementById("message").removeAttribute("hidden");
+  document.getElementById("message").removeAttribute("class");
 }
 
 window.addEventListener("load",function() {
