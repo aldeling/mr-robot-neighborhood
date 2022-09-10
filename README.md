@@ -82,5 +82,11 @@ const number = "10"
 changeNumber(number)
 Expected Output: "Beep!"
 
+Test: It should return Boop! if two is included in the number
+Code:
+const number = "20"
+changeNumber(number)
+Expected Output: Boop!
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 09/09/2022 Athea DeLing
