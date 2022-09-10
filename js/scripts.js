@@ -19,10 +19,10 @@ function numberArray(number) {
 function changeNumber(number) {
  if (number.includes("3")) {
     return "Won't you be my neighbor!";
-  } else if (number.includes("1")) {
-    return "Beep!";
   } else if (number.includes("2")) {
     return "Boop!";
+  } else if (number.includes("1")) {
+    return "Beep!";
   }
   return number;
 }
