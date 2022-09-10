@@ -45,6 +45,7 @@ function handelFormSubmission(event) {
   event.preventDefault();
   let userNumber = document.getElementById("number").value;
   document.getElementById("statement").innerText = completeMessage(userNumber);
+  document.getElementById("message").removeAttribute("hidden");
 }
 
 window.addEventListener("load",function() {
