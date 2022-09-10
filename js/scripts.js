@@ -17,7 +17,7 @@ function numberArray(number) {
 }
 
 function changeNumber(number) {
-  if (number === "1") {
+  if (number.includes("1")) {
     return "Beep!";
   } else if (number === "2") {
     return "Boop!";
