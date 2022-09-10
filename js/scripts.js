@@ -40,3 +40,9 @@ function completeMessage(number) {
   return finalOutput;
 }
 // UI Logic 
+
+function handelFormSubmission(event) {
+  event.preventdefault();
+  let userNumber = document.getElementById("number").value;
+  document.getElementById("statement").innerText = completeMessage(userNumber);
+}
