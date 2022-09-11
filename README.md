@@ -12,7 +12,7 @@ There are a couple ways you can choose to setup this web application you can,
 
 Open the repository Mr-Robots-Neighborhood once opened you can fork and clone it to your personal computer.
 Once you open the file click on index.html to then open on your default browser.
-Another option is to go to the [GitHub](will replace) pages link and open the web application there
+Another option is to go to the [GitHub](https://aldeling.github.io/mr-robot-neighborhood/) pages link and open the web application there
 ### Known Bugs
 There are no known bugs
 ### Tests
